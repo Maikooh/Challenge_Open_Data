@@ -1,0 +1,11 @@
+le format csv utilise le ; comme séparateur
+
+
+https://data.ameli.fr/explore/dataset/demographie-effectifs-et-les-densites/export/?disjunctive.profession_sante&disjunctive.libelle_classe_age&disjunctive.libelle_sexe&disjunctive.region&disjunctive.departement
+
+https://data.ameli.fr/explore/dataset/patientele/export/?disjunctive.region&disjunctive.departement
+
+https://data.ameli.fr/explore/dataset/demographie-secteurs-conventionnels/export/?disjunctive.region&disjunctive.departement
+
+
+https://data.ameli.fr/explore/dataset/demographie-ages-moyens-part-des-femmes-part-des-plus-de-60-ans/export/
