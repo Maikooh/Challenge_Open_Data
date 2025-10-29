@@ -1,0 +1,17 @@
+Toutes ces bases de données proviennes de Odissé, sous le format CSV:
+
+L'export CSV utilise la virgule (,) comme séparateur.
+Il y a également la possibilité d'utilisé une API pour les exporter.
+
+
+https://odisse.santepubliquefrance.fr/explore/dataset/mois-sans-tabac-nombre-d-inscriptions-departement/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/mois-sans-tabac-nombre-d-inscriptions-region/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/maladies-cardiaques-hospitalisations/export/?sort=taux_indcidence
+https://odisse.santepubliquefrance.fr/explore/dataset/cancer-incidence-et-mortalite-estimees-departement/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/grippe-passages-urgences-et-actes-sos-medecin_reg/export/?disjunctive.reglib&sort=date_complet
+https://odisse.santepubliquefrance.fr/explore/dataset/sante-mentale-pensees-suicidaires-et-tentatives-de-suicide_reg/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/sante-mentale-episodes-depressifs-caracterises-dans-les-12-derniers-mois_reg/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/maladies-a-caractere-professionnel-mcp-region/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/pollution-de-l-air-impact-du-no2-et-des-pm2-5_mortalite_dep/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/pollution-de-l-air-impact-du-no2-et-des-pm2-5_mortalite_reg/export/
+https://odisse.santepubliquefrance.fr/explore/dataset/pollution-de-l-air-impact-sur-la-survenue-de-maladie-du-no2-et-des-pm2-5-anthro_region/export/
