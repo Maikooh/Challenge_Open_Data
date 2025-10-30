@@ -33,7 +33,7 @@ cat("Packages charges\n")
 cat("\n=== CHARGEMENT DES DONNEES ===\n")
 
 # Definir le chemin de base
-chemin_base <- "D:/MASTER MECEN/MASTER 1/opendata"
+chemin_base <- getwd()
 
 # Fonction pour charger les CSV
 charger_csv <- function(dossier, fichier) {
@@ -976,4 +976,5 @@ server <- function(input, output, session) {
       )
   })
 }
+
 
