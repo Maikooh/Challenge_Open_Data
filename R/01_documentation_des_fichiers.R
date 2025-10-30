@@ -339,7 +339,7 @@ generer_rapport_html <- function(infos, output_file) {
         '    Max = round(s$max, 2),',
         '    Moyenne = round(s$moyenne, 2),',
         '    Mediane = round(s$mediane, 2),',
-        '    NA = s$na_count,',
+        '    NA_valeur = s$na_count,',
         '    stringsAsFactors = FALSE',
         '  )',
         '}))','',
