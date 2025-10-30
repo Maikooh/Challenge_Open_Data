@@ -771,7 +771,7 @@ cat("\n=== DASHBOARD SANTE ET TERRITOIRES ===\n")
 cat("Generation de la documentation des possibilites\n\n")
 
 # Definir le chemin de sortie
-chemin_base <- "D:/MASTER MECEN/MASTER 1/opendata"
+chemin_base <- getwd()
 fichier_sortie <- file.path(chemin_base, "data/processed/possibilites_visualisation.html")
 
 # Creer le dossier si necessaire
