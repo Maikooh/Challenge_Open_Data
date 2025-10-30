@@ -432,7 +432,7 @@ cat("
 \n")
 
 # Definir les chemins absolus
-chemin_base <- "D:/MASTER MECEN/MASTER 1/opendata"
+chemin_base <- getwd()
 dossier_odisse <- file.path(chemin_base, "data/processed/odisse")
 dossier_ameli <- file.path(chemin_base, "data/processed/ameli")
 fichier_sortie <- file.path(chemin_base, "data/processed/rapport_exploration_donnees.html")
