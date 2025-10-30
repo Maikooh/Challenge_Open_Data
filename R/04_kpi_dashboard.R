@@ -29,7 +29,7 @@ cat("Packages charges\n")
 
 cat("\n=== CHARGEMENT DES DONNEES ===\n")
 
-chemin_base <- "D:/MASTER MECEN/MASTER 1/opendata"
+chemin_base <- getwd()
 
 # Fonction pour charger et nettoyer les CSV
 charger_csv <- function(dossier, fichier) {
