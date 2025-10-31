@@ -281,7 +281,7 @@ server <- function(input, output, session) {
   # CARTE INTERACTIVE LEAFLET
   # -------------------------------------------------------------------------
   output$carte_densite <- renderLeaflet({
-    france_depts <- st_read("https://france-geojson.gregoiredavid.fr/repo/departements.geojson",
+    france_depts <- st_read("https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson",
                             quiet = TRUE)
     
     df <- demographie_effectifs %>%
@@ -627,7 +627,7 @@ server <- function(input, output, session) {
   # Carte interactive box
   # -------------------------------------------------------------------------
   output$carte_densite_box <- renderLeaflet({
-    france_depts <- st_read("https://france-geojson.gregoiredavid.fr/repo/departements.geojson",
+    france_depts <- st_read("https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson",
                             quiet = TRUE)
     
     df <- demographie_effectifs %>%
@@ -744,3 +744,4 @@ server <- function(input, output, session) {
 # ============================================================================
 
 shinyApp(ui = ui, server = server)
+
