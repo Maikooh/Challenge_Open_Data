@@ -9,12 +9,13 @@ tabItem(
   fluidRow(column(
     12,
     h2(icon("info-circle"), "À propos du projet"),
-    p("Informations sur le projet, les auteurs, les sources et les limites")
+    p(
+      "Informations sur le projet, les auteurs, les sources et les limites"
+    )
   )),
   
   # ----------- 2. AUTEURS ET SOURCES -----------
   fluidRow(
-    
     ## ----- 2.1. Les auteurs -----
     box(
       title = span(icon("users"), "Les auteurs"),
@@ -31,14 +32,23 @@ tabItem(
           style = "margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;",
           h4(icon("user"), "Fadli Aaron", style = "margin: 0 0 10px 0; color: #2c3e50; font-size: 16px;"),
           p(
-            a(href = "https://www.linkedin.com/in/aaron-fadli/", target = "_blank", class = "author-link",
-              icon("linkedin"), " LinkedIn"),
+            a(
+              href = "https://www.linkedin.com/in/aaron-fadli/",
+              target = "_blank",
+              class = "author-link",
+              icon("linkedin"),
+              " LinkedIn"
+            ),
             " | ",
-            a(href = "https://github.com/Maikooh", target = "_blank", class = "author-link",
-              icon("github"), " GitHub"),
+            a(
+              href = "https://github.com/Maikooh",
+              target = "_blank",
+              class = "author-link",
+              icon("github"),
+              " GitHub"
+            ),
             " | ",
-            a(href = "mailto:aaron.fadli@etu.univ-tours.fr", class = "author-link",
-              icon("envelope"), " Email"),
+            a(href = "mailto:aaron.fadli@etu.univ-tours.fr", class = "author-link", icon("envelope"), " Email"),
             style = "margin: 5px 0; font-size: 13px;"
           )
         ),
@@ -48,14 +58,23 @@ tabItem(
           style = "margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #4facfe;",
           h4(icon("user"), "Kurnaz Kubra", style = "margin: 0 0 10px 0; color: #2c3e50; font-size: 16px;"),
           p(
-            a(href = "https://www.linkedin.com/in/kubra-kurnaz-56ba35387/", target = "_blank", class = "author-link",
-              icon("linkedin"), " LinkedIn"),
+            a(
+              href = "https://www.linkedin.com/in/kubra-kurnaz-56ba35387/",
+              target = "_blank",
+              class = "author-link",
+              icon("linkedin"),
+              " LinkedIn"
+            ),
             " | ",
-            a(href = "https://github.com/Kubra2918", target = "_blank", class = "author-link",
-              icon("github"), " GitHub"),
+            a(
+              href = "https://github.com/Kubra2918",
+              target = "_blank",
+              class = "author-link",
+              icon("github"),
+              " GitHub"
+            ),
             " | ",
-            a(href = "mailto:kubra.kurnaz@etu.univ-tours.fr", class = "author-link",
-              icon("envelope"), " Email"),
+            a(href = "mailto:kubra.kurnaz@etu.univ-tours.fr", class = "author-link", icon("envelope"), " Email"),
             style = "margin: 5px 0; font-size: 13px;"
           )
         ),
@@ -65,11 +84,15 @@ tabItem(
           style = "margin-bottom: 5px; padding: 15px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #43e97b;",
           h4(icon("user"), "Moreau Matteo", style = "margin: 0 0 10px 0; color: #2c3e50; font-size: 16px;"),
           p(
-            a(href = "https://github.com/MatteoHmmm", target = "_blank", class = "author-link",
-              icon("github"), " GitHub"),
+            a(
+              href = "https://github.com/MatteoHmmm",
+              target = "_blank",
+              class = "author-link",
+              icon("github"),
+              " GitHub"
+            ),
             " | ",
-            a(href = "mailto:matteo.moreau@etu.univ-tours.fr", class = "author-link",
-              icon("envelope"), " Email"),
+            a(href = "mailto:matteo.moreau@etu.univ-tours.fr", class = "author-link", icon("envelope"), " Email"),
             style = "margin: 5px 0; font-size: 13px;"
           )
         )
@@ -215,7 +238,6 @@ tabItem(
   
   # ----------- 4. TECHNOLOGIE & LICENCE -----------
   fluidRow(
-    
     ## ----- 4.1. Technologies utilisées -----
     box(
       title = span(icon("code"), "Technologies utilisées"),
@@ -227,12 +249,36 @@ tabItem(
         style = "padding: 15px;",
         tags$ul(
           style = "font-size: 13px; color: #5a6c7d; line-height: 1.8;",
-          tags$li(icon("r-project", style = "color: #276DC3;"), strong(" R "), "- Langage de programmation statistique"),
-          tags$li(icon("chart-area", style = "color: #667eea;"), strong(" Shiny "), "- Framework d'applications web interactives"),
-          tags$li(icon("map", style = "color: #43e97b;"), strong(" Leaflet "), "- Cartographie interactive"),
-          tags$li(icon("chart-line", style = "color: #4facfe;"), strong(" Plotly "), "- Visualisations interactives"),
-          tags$li(icon("table", style = "color: #f093fb;"), strong(" DT "), "- Tables de données interactives"),
-          tags$li(icon("brain", style = "color: #f093fb;"), strong(" Claude AI (Anthropic) "), "- Assistant IA pour le développement et la conception")
+          tags$li(
+            icon("r-project", style = "color: #276DC3;"),
+            strong(" R "),
+            "- Langage de programmation statistique"
+          ),
+          tags$li(
+            icon("chart-area", style = "color: #667eea;"),
+            strong(" Shiny "),
+            "- Framework d'applications web interactives"
+          ),
+          tags$li(
+            icon("map", style = "color: #43e97b;"),
+            strong(" Leaflet "),
+            "- Cartographie interactive"
+          ),
+          tags$li(
+            icon("chart-line", style = "color: #4facfe;"),
+            strong(" Plotly "),
+            "- Visualisations interactives"
+          ),
+          tags$li(
+            icon("table", style = "color: #f093fb;"),
+            strong(" DT "),
+            "- Tables de données interactives"
+          ),
+          tags$li(
+            icon("brain", style = "color: #f093fb;"),
+            strong(" Claude AI (Anthropic) "),
+            "- Assistant IA pour le développement et la conception"
+          )
         )
       )
     ),
@@ -246,19 +292,41 @@ tabItem(
       
       div(
         style = "padding: 15px;",
-        p("Ce projet est distribué sous licence ", strong("CC-by-sa"),
-          style = "font-size: 13px; color: #5a6c7d; margin-bottom: 15px;"),
-        p(icon("creative-commons"), " Vous êtes libre d'utiliser, modifier et distribuer ce code à condition de citer les auteurs.",
-          style = "font-size: 12px; color: #7f8c8d; margin-bottom: 15px;"),
+        p(
+          "Ce projet est distribué sous licence ",
+          strong("CC-by-sa"),
+          style = "font-size: 13px; color: #5a6c7d; margin-bottom: 15px;"
+        ),
+        p(
+          icon("creative-commons"),
+          " Vous êtes libre d'utiliser, modifier et distribuer ce code à condition de citer les auteurs.",
+          style = "font-size: 12px; color: #7f8c8d; margin-bottom: 15px;"
+        ),
         div(
           style = "background: #e8f5e9; padding: 12px; border-radius: 8px; border-left: 4px solid #43e97b;",
-          p(" Projet réalisé dans le cadre du ", strong("Master MECEN"), " - Année universitaire 2025-2026",
-            style = "margin: 0 0 8px 0; font-size: 12px; color: #2c3e50;"),
-          p(" Pour participation au projet ",
-            a(href = "https://latitudes.notion.site/", target = "_blank", strong("Open Data University"),
+          p(
+            " Projet réalisé dans le cadre du ",
+            a(
+              href = "https://mecen.univ-tours.fr/",
+              target = "_blank",
+              strong("Master MECEN"),
               icon("external-link-alt", style = "font-size: 10px; margin-left: 3px;"),
-              style = "color: #2c3e50; text-decoration: none; font-weight: 600;"),
-            style = "margin: 0; font-size: 12px; color: #2c3e50;")
+              style = "color: #2c3e50; text-decoration: none; font-weight: 600;"
+            ),
+            " - Année universitaire 2025-2026",
+            style = "margin: 0 0 8px 0; font-size: 12px; color: #2c3e50;"
+          ),
+          p(
+            " Pour participation au projet ",
+            a(
+              href = "https://latitudes.notion.site/",
+              target = "_blank",
+              strong("Open Data University"),
+              icon("external-link-alt", style = "font-size: 10px; margin-left: 3px;"),
+              style = "color: #2c3e50; text-decoration: none; font-weight: 600;"
+            ),
+            style = "margin: 0; font-size: 12px; color: #2c3e50;"
+          )
         )
       )
     )
