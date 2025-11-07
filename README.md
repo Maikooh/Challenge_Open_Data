@@ -50,6 +50,14 @@ Challenge_Open_Data/
 
 ### 1. Prérequis
 
+Téléchargez le projet au format `.zip` depuis le dépôt GitHub :  
+➡️ [https://github.com/Maikooh/Challenge_Open_Data](https://github.com/Maikooh/Challenge_Open_Data)
+
+Décompressez le fichier `.zip`
+
+
+Si vous n'avez pas les packages, à faire dans la console R : 
+
 ```R
 install.packages(c(
   "shiny",
@@ -65,6 +73,8 @@ install.packages(c(
 ))
 ```
 
+
+
 ### 2. Structure des données
 
 #### ⚠️ Important - Préparation des données
@@ -73,7 +83,7 @@ install.packages(c(
 
 **Fichier RDS** : Le fichier `.rds` est déjà inclus dans le dépôt. Il a été préalablement généré à partir du fichier JSON correspondant pour optimiser les temps de chargement.
 
-**Autres fichiers** : Les fichiers JSON suivants doivent être téléchargés depuis leurs sources respectives :
+**Autres fichiers** : Les fichiers JSON suivants doivent être téléchargés depuis leurs sources respectives et placer dans le dossier data :
 
 | Fichiers | Description | Source |
 |------|--------------|---------|
@@ -86,7 +96,8 @@ install.packages(c(
 ### 3. Lancement
 
 ```R
-# Depuis RStudio 
+# Depuis RStudio : dans la console en ayant mis le dossier décompresser en tant que working directory
+
 shiny::runApp()
 
 # Ou depuis R
